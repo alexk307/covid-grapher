@@ -1,5 +1,5 @@
 # covid-grapher
-Graph Covid-19 Trends by U.S. Counties
+Graph Covid-19 Trends by U.S. Counties. Uses [New York Times data](https://github.com/nytimes/covid-19-data) and [Plotly](https://plotly.com/python/).
 
 
 ```
