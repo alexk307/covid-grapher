@@ -26,7 +26,7 @@ def run(state, county, graph):
             data['cases'].append(cases)
             data['deaths'].append(deaths)
     df = pandas.DataFrame(data=data)
-    fig = px.line(df, x="date", y=graph, title='Cases in {}'.format(county))
+    fig = px.line(df, x="date", y=graph, title='Cases in {} county, {}'.format(county.capitalize(), state.capitalize()))
     fig.show()
 
 
